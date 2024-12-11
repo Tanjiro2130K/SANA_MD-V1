@@ -25,7 +25,7 @@ global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session
 
 global.mods = []
 global.prems = []
-global.allowed = ['917849917350', '923337468951']
+global.allowed = ['917086726371']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
