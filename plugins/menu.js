@@ -21,8 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *SANA_MD-V1* 』  
-      © 2025 *Sana Khan*`;
+       TIKU ✨🦪 `;
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
