@@ -14,17 +14,17 @@ const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = ['917086726371'];
 for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
 global.botname = process.env.BOTNAME || 'SANA_MD-V1';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.pairingNumber = process.env.BOT_NUMBER || '';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'adIhFABa#_nxNmK8rXe5vhpBWjzRub_w09TTlvKSo3bYPZ1ahgyw';  // put your session id here
 
-global.mods = []
-global.prems = []
+global.mods = ['917086726371']
+global.prems = ['917086726371']
 global.allowed = ['917086726371']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
