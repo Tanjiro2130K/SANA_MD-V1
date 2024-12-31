@@ -559,7 +559,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
     const msg = `*SANA_MD-V1 Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY FOLLOW*
-*https://GitHub.com/Tohidkhan6333*`
+*https://GitHub.com/sana3165829*`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
